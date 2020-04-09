@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif; 
+}
+
+main {
+    position: relative;
+    top: 100px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    margin-bottom: 19px;
+}
+
+/* ~~ SEARCH BAR AND FORM ~~ */ 
+
+.search-bar {
+    width: 520px;
+    border: 1px solid rgba(212, 210, 210, 0.8); 
+    border-radius: 50px;
+    background-color: white; 
+    font-size: 16px;
+    padding: 10px 10px 10px 40px;
+    background-image: url(searchicon.svg);
+    background-repeat: no-repeat; 
+    background-position: 11px 9px;
+    background-size: 25px 25px;
+}
+
+.search-bar:hover, .search-bar:focus {
+    box-shadow: 0px 0px 1px rgb(67, 71, 74);
+}
+
+div.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 5px;
+    background-color:rgb(242, 242, 242);
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px 20px;
+    color: rgb(95, 99, 104);
+}
+
+button:hover {
+    color: rgb(67, 71, 74);
+    box-shadow: 0px 0px 2px rgb(67, 71, 74);
+}
+
+input, button {
+    margin-bottom: 30px;
+}
+
+/* ~~ NAVIGATION BAR ~~ */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 0px
+    /*margin-left: 10px;*/
+}
+
+.leftside {
+    padding-left: 20px;
+}
+
+.rightside {
+    margin-right: 20px;
+}
+
+nav li {
+    /*margin-right: 1em;*/
+    font-size: 12px;
+    padding: 8px 10px 8px 10px;
+}
+
+li.signin {
+    background-color:rgb(0, 162, 255);
+    color: white; 
+    font-weight: 800;
+}
+
+li.icon {
+    margin-right: 1px;
+    padding-left: 10px;
+    padding-right: 14px;
+}
+
+/* ~~ MATERIAL ICONS ~~ */ 
+
+
+/* ~~ FOOTER ~~ */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(212, 210, 210, 0.4);
+}
+
+footer ul {
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none; 
+}
+
+footer li {
+    margin-right: 1em; 
+    font-size: 14px;
+    color: rgb(67, 71, 74);
+}
+
+/* SAVED FOR LATER */ 
+
+/*.search-icon {
+    background-image: url(searchicon.svg);
+    background-repeat: no-repeat; 
+    background-position: 14px 11px;
+    background-size: 25px 25px;
+}*/
+
+/* .material-icons {
+    color: rgb(61, 71, 74);
+} */
