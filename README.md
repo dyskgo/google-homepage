@@ -3,7 +3,7 @@
 
 <p>This is my project to re-create the front-end design of the Google homepage using HTML/CSS.</p>
 
-<p>I completed this project as part of the Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css).</p>
+<p>I completed this project as part of the Odin Project's <a href="http://www.theodinproject.com/courses/web-development-101/lessons/html-css">curriculum</a>.</p>
 
 <p>This was my first HTML/CSS project of this size. It took me about 6-7 hours to complete, from start to finish.</p>
 
