@@ -14,6 +14,8 @@ I did look at Google's source-code and styles specifically to get accurate color
 <p>There were a couple areas that I struggled with, such as including icons in the search-bar. I now know how to fix these issues (as I've checked other solutions to the project),
  but I've chosen to upload this project in the state that I was able to do on my own, with those problems intact.</p>
 
+<p>I also began this project before knowing Git best practice, so ignore all git commit messages. :) </p> 
+
 ## Dylan
 
 
